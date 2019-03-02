@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="utf-8">
+<title>學生拍賣</title>
+<style>
+body {
+    background-color: blue;
+     }
+h1 {
+    color: white;
+    text-align: center;
+   }
+p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    font-size:30px;
+   }
+</style>
+</head>
+<body>
+<h1>2019/3/2更新</h1>
+<img border="0" src="韓系潮帽.jpg" width="500" height="300">
+<h3>歡迎用</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
