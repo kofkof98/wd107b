@@ -12,3 +12,10 @@ td{
 input{
     font-size:20px;
 }
+button{
+    background-color:pink;
+    border-radius:20px;
+    color:red;
+    border:2px solid red;
+    font-size:30px;
+}
