@@ -1,6 +1,11 @@
-h2 {font-size:60px;}
+h2 {font-size:60px;
+    border-color:#000000;
+    border-style: solid;
+    border-radius: 20%;
+}
 h3 {font-size:50px;
-color:red;}
+color:red;
+text-align: center;}
 body{
     background-color: pink;
 }
@@ -13,9 +18,15 @@ input{
     font-size:20px;
 }
 button{
+    text-align: center;
     background-color:pink;
     border-radius:20px;
     color:red;
     border:2px solid red;
     font-size:30px;
+}
+#t2{
+    width: 50%;
+    margin-left:38%;
+
 }
