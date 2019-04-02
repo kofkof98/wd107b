@@ -2,7 +2,7 @@
 <html> 
 <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
 <style>
     h3{
         font-family:Microsoft JhengHei;
@@ -55,9 +55,9 @@
 	
 }
 .dropdown {
-    position:fixed;
-	top:15px;
-	right:35px;
+    position: relative;
+	top:20px;
+	right:10px;
     padding: 15px;
     display: inline-block;
 }
@@ -103,19 +103,51 @@
 		left:5px;
 		border: none;
 		}
-        @media only screen and (max-width: 500px) {
+        
+.header-c{
+    position: relative;
+	top:20px;
+	left:10px;
+    padding: 15px;    
+    display: none;
+}
+.c{
+    border: none;
+    background-color:#9933cc;
+ }
+.dropdown-c{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 45px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-c a{
+    text-decoration: none;
+  color:black;
+}
+.dropdown-c p{
+    margin: 5px 5px;
+    padding: 8px;
+}
+.dropdown-c p:hover {background-color: #f1f1f1}
+.header-c:hover .dropdown-c{
+    display: block;
+}
+@media only screen and (max-width: 600px) {
     /* For mobile phones: */
-    [class*="ggg"] {
+    .header-c{display: block;}
+    .ggg{
         display: none;
     }
-        }
+}
 </style>
 <meta charset="utf-8">
 <title></title>
 </head>
 <body>
-
-    <div class="dropdown">
+       
+    <div class="dropdown" style="float:right;">
         <button class="dropbtn">MENU</button>
         <div class="dropdown-content">
           <p><a href="#">陣容</a></p>
@@ -123,7 +155,25 @@
           <p><a href="#">外部連結</a></p>
         </div>
       </div>
-<div class="header">	
+<div class="header-c" style="float:left;">
+    <button class="c">
+    <i class="fa fa-align-justify" style="font-size:36px"> </i></button>
+    <div class="dropdown-c">
+            <p><a href="#">'94</a></p>
+            <p><a href="#">'95</a></p>
+            <p><a href="#">'96</a></p>
+            <p><a href="#">'97</a></p>
+            <p><a href="#">'98</a></p>
+            <p><a href="#">'99</a></p>
+            <p><a href="#">2000</a></p>
+            <p><a href="#">2001</a></p>
+            <p><a href="#">2002</a></p>
+            <p><a href="#">2003</a></p>
+            <p><a href="#">xi</a></p>
+            <p><a href="#">xiii</a></p>
+    </div>
+</div>
+<div class="header">
 <button class="bb">首頁</button>
 </div>
 <div class="ggg">
